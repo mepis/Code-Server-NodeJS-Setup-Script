@@ -14,9 +14,9 @@ sudo bash /tmp/nodesource_setup.sh
 sudo apt install nodejs
 
 echo "####################"
-echo "Installing Vue 3.X Latest"
+echo "Installing Yarn"
 echo "####################"
-npm init vue@latest
+npm install --global yarn
 
 echo "####################"
 echo "Installing Redis"
